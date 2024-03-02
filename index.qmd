@@ -1,0 +1,19 @@
+---
+title: "STAT 515 Mid Project"
+---
+
+The Redesign Project has two main objectives:
+
+1.  Apply the class design guidelines using software that is taught in class.
+
+2.  Present the results of the redesigns.
+
+3.  Additional: Build up your portfolio.
+
+## Instructions
+
+You are required to discover a visualization from the web or another source and create several redesigns of the original visualization. This process should help you identify unique patterns or information that were not initially evident.
+
+Additionally, you are expected to compare and analyze the strengths and weaknesses of both the original plot and your redesigns, considering the context.
+
+The redesign project includes, updating your website with the redesigned project, accompanied by a 10minute oral video presentation embedded on your website.

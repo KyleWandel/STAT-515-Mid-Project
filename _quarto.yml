@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "STAT 515 Mid Project"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About Me
+      - href: original_graph.qmd
+        text: Original Graph
+      - href: new_graphs.qmd
+        text: Redesigned Visuals
+        
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
