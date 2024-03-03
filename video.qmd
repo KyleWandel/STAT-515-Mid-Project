@@ -2,4 +2,4 @@
 title: "Oral Presentation"
 ---
 
-{{< video https://www.youtube.com/embed/wo9vZccmqwc >}}
+{{< video https://youtu.be/E-379Pd-ozE >}}
