@@ -12,6 +12,7 @@ library("tidyverse")
 library("tidyr")
 library("ggplot2")
 library("report")
+source("/Users/kwandel/Documents/Personal Stuff/George Mason University/STAT 515 - Spring 2024/R Theme/hw.R")
 
 df <- read.csv(file = "/Users/kwandel/Documents/Personal Stuff/George Mason University/STAT 515 - Spring 2024/Porject Folder/Mid Project/Murrder_By_Weapon.csv")
 
