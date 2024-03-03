@@ -11,6 +11,8 @@ website:
         text: Original Graph
       - href: new_graphs.qmd
         text: Redesigned Visuals
+      - href: video.qmd
+        text: Oral Presentation
         
 format:
   html:
