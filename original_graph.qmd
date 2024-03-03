@@ -4,16 +4,16 @@ title: "Original Graph"
 
 ## Graph
 
-![Reuters graph - Number of murders by firearm](Original Graph.jpg){fig-align="center" width="298"}
+![Reuters graph - Number of murders by firearm](Original%20Graph.jpg){fig-align="center" width="298"}
 
 ## Analysis of Graph
 
-The original graph comes from a Reuters article highlighting how murders in Florida have rapidly increased in the 10 years after Florida enacted it\'s stand your ground laws in 2005. The graph was criticized so badly that they took it down shortly after publishing it. However, it was up long enough for everyone to see the poorly constructed figure and it is now often used to depict horrible graphics.
+The original graph comes from a Reuters article highlighting how murders in Florida have rapidly increased in the 10 years after Florida enacted it's stand your ground laws in 2005. The graph was criticized so badly that they took it down shortly after publishing it. However, it was up long enough for everyone to see the poorly constructed figure and it is now often used to depict horrible graphics.
 
-The data that Reuters used is from Florida\'s Department of Law Enforcement and is created by Criminal Justice Analytics Bureau. The report is an annual report that aggregates all crime that occurred in the state of Florida. There are numerous reports created by the bureau, including type of offense, location, and by weapon type, which is where the data from the graph comes from.
+The data that Reuters used is from Florida's Department of Law Enforcement and is created by Criminal Justice Analytics Bureau. The report is an annual report that aggregates all crime that occurred in the state of Florida. There are numerous reports created by the bureau, including type of offense, location, and by weapon type, which is where the data from the graph comes from.
 
 ## References
 
-Rapaport, L. (2017, August 14). *Murders surge in Florida in decade after \`Stand Your Ground\' law*. Reuters. https://www.reuters.com/article/idUSKCN1AU1QK/
+Rapaport, L. (2017, August 14). *Murders surge in Florida in decade after \`Stand Your Ground' law*. Reuters. https://www.reuters.com/article/idUSKCN1AU1QK/
 
 *UCR Offense Data*. (2022, September 1). Www.fdle.state.fl.us; Criminal Justice Analytics Bureau. https://www.fdle.state.fl.us/CJAB/UCR/Annual-Reports/UCR-Offense-Data

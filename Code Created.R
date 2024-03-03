@@ -1,6 +1,6 @@
 library("tidyverse")
 library("tidyr")
-library(ggplot2)
+library("ggplot2")
 
 source("/Users/kwandel/Documents/Personal Stuff/George Mason University/STAT 515 - Spring 2024/R Theme/hw.R")
 getwd()

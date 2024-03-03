@@ -1,5 +1,5 @@
 ---
-title: "New Graphs"
+title: "Redesigned Visuals"
 ---
 
 ## Data Cleaning
@@ -7,6 +7,12 @@ title: "New Graphs"
 In order to make the original dataset more usable I had to clean it by removing some of the extra rows before reading the file into R. I updated the names for the columns and then I had to pivot the data in order to create the various buckets I needed by murder type.
 
 ```{r}
+
+library("tidyverse")
+library("tidyr")
+library("ggplot2")
+library("report")
+
 df <- read.csv(file = "/Users/kwandel/Documents/Personal Stuff/George Mason University/STAT 515 - Spring 2024/Porject Folder/Mid Project/Murrder_By_Weapon.csv")
 
 # Original column names
@@ -24,7 +30,8 @@ df_long <- pivot_longer(df, -Year, names_to = "Offense_Type", values_to = "Count
 ```
 
 ## Graph 1
-The first graph is the original graph that was created but I flipped the y-axis and the corresponding fill to the correct orientation. I also decided to add a few more data points to the graph to make it even easier to understand the change occuring.
+
+The first graph is the original graph that was created but I flipped the y-axis and the corresponding fill to the correct orientation. I also decided to add a few more data points to the graph to make it even easier to understand the change occurring.
 
 ```{r}
 ggplot(df_long[df_long$Offense_Type == "Firearm", ], aes(x = Year, y = Count)) +
@@ -36,16 +43,27 @@ ggplot(df_long[df_long$Offense_Type == "Firearm", ], aes(x = Year, y = Count)) +
   hw
 ```
 
+Fixing the y-axis makes the graph much easier to understand and it can be clearly seen that the number of murders caused by firearms has increased since 2005.
 
 ## Graph 2
-This next graph is how I would officially redesign the data and would show it in the article. 
+
+This next graph is how I would officially redesign the data and would show it in the article.
+
 ```{r}
-ggplot(df_long, aes(x = Year, y = Count, color = Offense_Type)) +
+# Filter out "Total Offenses" category
+df_filtered <- df_long[df_long$Offense_Type != "Total Offenses", ]
+
+# Plotting
+ggplot(df_filtered, aes(x = Year, y = Count, color = Offense_Type)) +
   geom_line() +
   labs(x = "Year", y = "Murders", title = "Murders by Weapon Over Years") +
   hw
 ```
 
-This graph utlitizes the full dataset and looks at the number of murders for each type of offense. 
+This graph utilizes the full dataset and looks at the number of murders for each type of offense. By looking at the graph the reader can clearly see that the number of murders using a firearm has increased since 2005. But the reader could also see how many more murders are committed using a firearm compared to other types, which by looking at the graph are decreasing.
 
-## 
+## References
+
+```{r}
+cite_packages()
+```
