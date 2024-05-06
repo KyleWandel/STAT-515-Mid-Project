@@ -287,6 +287,7 @@ df_clean <- na.omit(df)
 df_clean$benormal <- ifelse(df_clean$benormal == 4, 1, ifelse(df_clean$benormal == 2, 0, df_clean$benormal))
 cancer_rf=randomForest(benormal~.,data=df_clean,subset=train,mtry=3,importance=TRUE)
 yhat.rf = predict(cancer_rf,newdata=df_clean[-train,])
+df_clean.test=df_clean[-train,"benormal"]#testing y values
 mean((yhat.rf-df_clean.test)^2) #test set MSE
 ```
 
