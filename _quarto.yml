@@ -14,6 +14,11 @@ website:
         text: Redesigned Visuals
       - href: video.qmd
         text: Oral Presentation
+      - href: Final_KW.qmd
+        text: Final Project
+      - href: Final_Report_Webpage.qmd
+        text: Code For Final Project
+        
         
 format:
   html:
